@@ -1,0 +1,15 @@
+tr>td>a{
+    width: 1px;
+    transition: all .5s linear !important;
+}
+tr>td>a>i{
+    opacity: 0;
+}
+tr:hover>td>a{
+    width: 50px;
+
+}
+tr:hover>td>a>i{
+    opacity: 1;
+
+}
